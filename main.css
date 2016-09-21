@@ -1,3 +1,170 @@
-h1 {
-    color: red;
+.bl-background {
+    background: #cdcbcb;
+    padding: 20px;
+}
+
+.bl-title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.17em;
+}
+
+.bl-product-name {
+    
+}
+
+.bl-list {
+    background: white;
+    margin-bottom: 10px;
+}
+
+.bl-bought {
+    background: white;
+}
+
+/*Кнопки*/
+.bl-button {
+    display: inline-block;
+    
+    color: #FFF;
+    background-image: none;
+    background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
+    
+    cursor: pointer;
+    min-height: 1em;
+    
+    outline: 0;
+    border: none;
+    margin: 0 .25em 0 0;
+    padding: 1em 2em 1.15em;
+    
+    vertical-align: middle;
+    text-align: center;
+    line-height: 1em;
+    border-radius: .4em;
+    text-shadow: none;    
+    box-shadow: 0 -.3em 0 0 rgba(34,36,38,.15) inset;
+    
+    transition: opacity .1s ease,background-color .1s ease,box-shadow .1s ease,color .1s ease,background .1s ease;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    
+    
+}
+
+.red-button {
+    background: #DB2828;
+}
+.green-button {
+    background: #04a613;
+}
+
+.plus-button {
+    
+}
+.minus-button {
+
+}
+.bought-button {
+    color: rgba(0,0,0,.6);
+}
+.cross-button {
+       
+}
+.add-button{
+    background-color: #2185D0;
+}
+
+.bl-label {
+    display: inline-block;
+    
+    background: #cdcbcb;
+    font-size: .85714286rem;
+    line-height: 1;
+    vertical-align: baseline;
+    margin: 0 .14285714em;
+    background-color: #E8E8E8;
+    background-image: none;
+    padding: .5833em .833em;
+    text-transform: none;
+    font-weight: 700;
+    border: 0 solid transparent;
+    border-radius: .28571429rem;
+    transition: background .1s ease;
+    
+    color: rgba(0,0,0,.6);
+    text-align: center;
+}
+
+.bl-container {
+    display: block;
+    max-width: 100%!important;
+    padding-top: 100px;
+    background: white;
+}
+
+.bl-row {
+    display: block;
+    text-align: center;
+    background: white;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    vertical-align: top;
+    
+    margin: 0 .14285714em;
+    
+    background-image: none;
+    padding: .5833em .833em;
+    border: 0 solid transparent;
+    
+    border-top: none;
+    margin-top: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    top: 0;
+    border-radius: .28571429rem .28571429rem 0 0;
+}
+
+.mini-container{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    background: white;
+    
+    
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    vertical-align: top;
+    
+    margin: 0 .14285714em;
+    
+    background-image: none;
+    padding: .5833em .833em;
+    border: 0 solid transparent;
+    
+    border-top: none;
+    margin-top: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    top: 0;
+    border-radius: .28571429rem .28571429rem 0 0;
+}
+
+body {
+    height: 100%;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    
+    background-color: #DADADA;
+    
+    box-sizing: inherit;
+    display: block;
 }

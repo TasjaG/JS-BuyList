@@ -2,12 +2,47 @@
 <html>
 <head lang="uk">
     <meta charset="UTF-8">
-    <title>My Page</title>
-
-
+    <title>My Buy List</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-<h1>Hello World</h1>
+<div class="bl-background">
+    <div class="bl-list">
+        
+        <input type="text" placeholder="Name of Poduct">
+        <button class="bl-button add-button">Add</button>
+        
+        <div class="bl-row">
+                
+            <div class="mini-container"> 
+                <div class="bl-product">
+                    Помідори
+                </div>
+            </div>
+
+                <div class="mini-container"> 
+                    <button class="bl-button red-button minus-button">-</button>
+                    <span class="bl-label">2</span>
+                    <button class="bl-button green-button plus-button">+</button>
+                </div>
+            
+            <div class="mini-container"> 
+                <button class="bl-button bought-button">Куплено</button>
+                <button class="bl-button red-button cross-button">x</button>
+            </div>
+                
+                
+        </div>
+    </div>
+    
+    <div class="bl-container">
+        <div class="bl-bought">
+            <span class="bl-title">Залишилося</span>
+            <span class="bl-title">Куплене</span>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
+
